@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -30,10 +30,10 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link" href="index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                                    <a class="nav-link active" aria-current="page" href="catalogo.html">Catalogo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contacto</a>
@@ -47,45 +47,46 @@
                 </nav>
             </header>
             <hero>
-                <h1 class="text-center m-5">Mamba Cars</h1>
+                <h2 class="text-center m-5">Catalogo</h2>
             </hero>
         </div>
-        <main class="container">
-            <div id="inicio">
-                <section class="row row-cols-1 row-cols-xl-2">
-                    <div class="col-xl-7">
-                        <h2 class="mb-3 mt-5">Encontra el auto que buscas</h2>
-                        <h3>En Mamba Cars ofrecemos una gran variedad de marcas y modelos para que encuentres el auto a
-                            tu
-                            medida, al mejor precio.</h3>
-                    </div>
-                    <div class="col-xl-5">
-                        <img src="https://www.pngplay.com/wp-content/uploads/12/Ford-Mustang-No-Background.png"
-                            class="img-fluid float-end" alt="mustang">
-                    </div>
-                </section>
+        <main id="catalogo" class="container">
+
+            <div class="row row-cols-1 row-cols-xl-2">
+                <div class="col mb-2">
+                    <div class="card">
+                        <img src="imagenes/ram.png" class="card-img-top img-fluid" alt="auto-0km">
+                        <div class="card-body">
+                          <h5 class="card-title">Auto 0km</h5>
+                          <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="imagenes/hillux.png" class="card-img-top img-fluid" alt="auto-usado">
+                        <div class="card-body">
+                          <h5 class="card-title">Auto usado</h5></p>
+                          <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                      </div>
+                </div>
             </div>
         </main>
-        <footer
-            class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top position-absolute bottom-0 start-50 translate-middle-x">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-muted">© 2022 Todos los derechos reservados</span>
+              <span class="mb-3 mb-md-0 text-muted">© 2022 Todos los derechos reservados</span>
             </div>
-
+        
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i><svg class="bi" width="24"
-                            height="24">
-                            <use xlink:href="#facebook"></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#instagram"><i class="bi bi-instagram"></i></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#e-mail"><i class="bi bi-envelope"></i></use>
-                        </svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#e-mail"><i class="bi bi-envelope"></i></use></svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"><i class="bi bi-instagram"></i></use></svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"><i class="bi bi-facebook"></i></use></svg></a></li>
             </ul>
-        </footer>
+          </footer>
     </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
