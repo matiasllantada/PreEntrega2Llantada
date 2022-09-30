@@ -14,6 +14,14 @@ nav {
     background-color: rgb(76, 102, 251);
     font-size: 1rem;
 }
+main img {
+    transition: all 1s;
+}
+main img:hover {
+-webkit-transform: scale(1.03);
+}
+
+
 /* FOOTER */
 .bi-instagram, 
 .bi-facebook,
